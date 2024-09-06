@@ -1,7 +1,7 @@
 # Autonomous Driving Model in Carla Simulation
 In this project, an autonomous vehicle was developed in the CARLA simulation environment. The primary objective of the project is to enable autonomous vehicles to navigate traffic safely and efficiently by recognizing traffic signs and lights, using distance measurement algorithms, and applying reinforcement learning techniques.
 ## Autonomous Driving System Architecture
-![Description of the image](BreadcrumbsAutonomous-Driving-Model/picture.png)
+![Description of the image](picture.png)
 
 The core architecture of our autonomous driving system is shown in The system consists of key components such as environment perception, state estimation, decision making, and action control.
 
