@@ -1,5 +1,5 @@
 # Autonomous Driving Model in Carla Simulation
-In this project, an autonomous vehicle was developed in the CARLA simulation environment. The primary objective of the project is to enable autonomous vehicles to navigate traffic safely and efficiently by recognizing traffic signs and lights, using distance measurement algorithms, and applying reinforcement learning techniques.
+In this project, an autonomous vehicle was developed in the CARLA simulation environment. The primary objective of the project is to enable autonomous vehicles to navigate traffic safely and efficiently by recognizing traffic signs and lights, using distance measurement algorithms, and applying reinforcement learning techniques. The system is trained and tested in the CARLA simulation environment using data from sensors and cameras. A test video demonstrating the system's performance is available [here](https://www.youtube.com/watch?v=Vv5ntKC1Y2k)
 ## Autonomous Driving System Architecture
 ![Description of the image](picture.png)
 
@@ -9,5 +9,5 @@ For environment perception, we employ the YOLO (You Only Look Once) object detec
 
 Proximal Policy Optimization (PPO) is used to select the optimal action based on this state representation. At time t+1, the selected action (e.g., acceleration, braking, turning) is executed, and the system transitions to a new state. Before the actions are sent to the vehicle control system, they pass through a smoothing filter.
 
-The system is trained and tested in the CARLA simulation environment using data from sensors and cameras. A test video demonstrating the system's performance is available [here](https://www.youtube.com/watch?v=Vv5ntKC1Y2k)
+
 
